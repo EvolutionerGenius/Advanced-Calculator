@@ -1,0 +1,30 @@
+#Inputs
+
+loop=True
+while loop:
+	number=int(input("Welcome to calculator,what number you want first:"))
+	number1=int(input("What is second number:"))
+	operator=input("What operator do you want:")
+plus=number+number1
+minus=number-number1
+operator1=number/number1
+operator2=number*number1
+#statements
+
+if operator == "+":
+	print(number "and" number1 "is equal to" plus)
+elif operator == "-":
+	print(number "and" number1 "is equal to" minus)
+elif operator == "/":
+	print(number "and" number1 "is equal to" operator1)
+elif operator == "*":
+	print(number "and" number1 "is equal to" operator2)
+else:
+	print("Sorry that operator or number is not defined")
+
+again=input("Congratuation!Do you wanna calculate again:")
+if again== "no" or "No":
+	loop=False
+	print("Goodbye!")
+elif again== "yes" or "Yes":
+	print("Good!")
